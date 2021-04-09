@@ -12,7 +12,7 @@ name varchar(20),
 description varchar(100),
 price decimal(8,3) 
 );
-
+<br>
 create table coupon(
 id int AUTO_INCREMENT PRIMARY KEY,
 code varchar(20) UNIQUE,
@@ -21,12 +21,12 @@ exp_date varchar(100)
 );
 
 
-#Server port
-for couponservice = 9091
-for productservice = 9090
+# Server port
+ for couponservice = 9091<br>
+#for productservice = 9090
 
-#url for fetch discount from couponservice
-http://localhost:9090/productapi/products
+# url for fetch discount from couponservice
+# http://localhost:9090/productapi/products
 
 try JSON:
       {
