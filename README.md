@@ -40,6 +40,7 @@ try JSON for inserting data into database
 <p class="has-line-data" data-line-start="37" data-line-end="40">Snippets and useful links:<br>
 Spring Initializer<br>
 <a href="https://start.spring.io/">https://start.spring.io/</a></p>
+
 # Database micoservices db
 <p class="has-line-data" data-line-start="45" data-line-end="53">create table product(
 id int AUTO_INCREMENT PRIMARY KEY,
@@ -55,7 +56,7 @@ discount decimal(8,3),
 exp_date varchar(100) 
 );
 
-pom.xml of ToDoMicroservice<br>
+pom.xml of couponservice<br>
 &lt;?xml version=“1.0” encoding=“UTF-8”?&gt;<br>
 &lt;project xmlns=&quot;<a href="http://maven.apache.org/POM/4.0.0">http://maven.apache.org/POM/4.0.0</a>&quot; xmlns:xsi=&quot;<a href="http://www.w3.org/2001/XMLSchema-instance">http://www.w3.org/2001/XMLSchema-instance</a>&quot;<br>
 xsi:schemaLocation=&quot;<a href="http://maven.apache.org/POM/4.0.0">http://maven.apache.org/POM/4.0.0</a> <a href="http://maven.apache.org/xsd/maven-4.0.0.xsd">http://maven.apache.org/xsd/maven-4.0.0.xsd</a>&quot;&gt;<br>
@@ -124,7 +125,7 @@ xsi:schemaLocation=&quot;<a href="http://maven.apache.org/POM/4.0.0">http://mave
 &lt;/plugins&gt;<br>
 &lt;/build&gt;<br>
 &lt;/project&gt;<br>
-pom.xml of StatisticsMicroservice<br>
+pom.xml of productservice<br>
 &lt;?xml version=“1.0” encoding=“UTF-8”?&gt;<br>
 &lt;project xmlns=&quot;<a href="http://maven.apache.org/POM/4.0.0">http://maven.apache.org/POM/4.0.0</a>&quot; xmlns:xsi=&quot;<a href="http://www.w3.org/2001/XMLSchema-instance">http://www.w3.org/2001/XMLSchema-instance</a>&quot;<br>
 xsi:schemaLocation=&quot;<a href="http://maven.apache.org/POM/4.0.0">http://maven.apache.org/POM/4.0.0</a> <a href="http://maven.apache.org/xsd/maven-4.0.0.xsd">http://maven.apache.org/xsd/maven-4.0.0.xsd</a>&quot;&gt;<br>
