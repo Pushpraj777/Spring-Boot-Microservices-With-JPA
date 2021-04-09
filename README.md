@@ -19,3 +19,29 @@ code varchar(20) UNIQUE,
 discount decimal(8,3),
 exp_date varchar(100) 
 );
+
+
+#Server port
+for couponservice = 9091
+for productservice = 9090
+
+#url for fetch discount from couponservice
+http://localhost:9090/productapi/products
+
+try JSON:
+      {
+   "name":"MAC",
+    "description":"Cool",
+    "price":  "2000",
+    "couponCode":"SUPERSALE"
+}
+
+for couponservice itself
+http://localhost:9091/couponapi/coupons
+
+try JSON for inserting data into database
+  {
+  "code":SUPERSALE",
+  "discount:10
+  
+}
