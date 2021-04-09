@@ -26,7 +26,7 @@ exp_date varchar(100)
 #for productservice = 9090
 
 # url for fetch discount from couponservice
-# http://localhost:9090/productapi/products
+http://localhost:9090/productapi/products
 
 try JSON:
       {
